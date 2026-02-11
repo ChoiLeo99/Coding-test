@@ -3,28 +3,28 @@
 // 만약 n 이 짝수이면 "(n) is even" 을
 // 홀수이면 "(n) is odd" 를 return
 
-const readline = require('readline');
-const rl = readline.createInterface({
-   input: process.stdin,
-   output: process.stdout,
-});
+// const readline = require('readline');
+// const rl = readline.createInterface({
+//    input: process.stdin,
+//    output: process.stdout,
+// });
 
-let input = [];
+// let input = [];
 
-rl.on('line', function (line) {
-   input = line.split(' ');
-}).on('close', function () {
-   n = Number(input[0]);
-});
+// rl.on('line', function (line) {
+//    input = line.split(' ');
+// }).on('close', function () {
+//    n = Number(input[0]);
+// });
 
-// 내가 쓴 풀이
-const readline = require('readline');
-const rl = readline.createInterface({
-   input: process.stdin,
-   output: process.stdout,
-});
+// // 내가 쓴 풀이
+// const readline = require('readline');
+// const rl = readline.createInterface({
+//    input: process.stdin,
+//    output: process.stdout,
+// });
 
-let input = [];
+// let input = [];
 
 rl.on('line', function (line) {
    input = line.split(' ');
